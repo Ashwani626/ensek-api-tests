@@ -1,4 +1,4 @@
-
+#Ensek API TestCase
 using FluentAssertions;
 using Newtonsoft.Json;
 using NUnit.Framework;
@@ -71,7 +71,7 @@ namespace ENSEK_Test
         public void ValidatePastOrders()
         {
             var pastOrders = _createdOrders.Where(o => o.Time.Date < DateTime.UtcNow.Date);
-            Console.WriteLine($"Number of orders created before today: {pastOrders.Count()}");
+            Console.WriteLine($"No. of orders before today: {pastOrders.Count()}");
         }
 
         [Test, Order(5)]
