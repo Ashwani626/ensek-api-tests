@@ -1,4 +1,3 @@
-#Ensek API TestCase
 using FluentAssertions;
 using Newtonsoft.Json;
 using NUnit.Framework;
