@@ -10,7 +10,6 @@ namespace ENSEK_Test
 {
     public class Order
     {
-        public int Id { get; set; }
         public string Fuel { get; set; }
         public int Quantity { get; set; }
         public DateTime Time { get; set; }
